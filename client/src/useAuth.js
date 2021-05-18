@@ -1,0 +1,26 @@
+import { useState, useEffect } from "react"
+import axios from "axios"
+
+export default function useAuth(code) {
+  const [accessToken, setAccessToken] = useState()
+  
+
+  useEffect(() => {
+    axios
+      .post("http://localhost:3001/login", {
+        code,
+      })
+      .then(res => {
+        console.log("Chamou")
+        setAccessToken(res.data.accessToken)
+
+        window.history.pushState({}, null, "/")
+      })
+      .catch((e) => {
+       window.location = "/"
+      })
+  }, [code])
+
+
+  return accessToken
+}

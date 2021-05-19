@@ -74,6 +74,7 @@ export default function Dashboard({ code }) {
   }, [search, accessToken])
 
   return (
+    <div className="p-3 mb-2 bg-dark text-white">
     <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
       <Form.Control
         type="search"
@@ -99,5 +100,6 @@ export default function Dashboard({ code }) {
         <Player accessToken={accessToken} trackUri={playingTrack?.uri} />
       </div>
     </Container>
+    </div>
   )
 }

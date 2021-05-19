@@ -11,7 +11,6 @@ export default function useAuth(code) {
         code,
       })
       .then(res => {
-        console.log("Chamou")
         setAccessToken(res.data.accessToken)
         window.history.pushState({}, null, "/")
       })

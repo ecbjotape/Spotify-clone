@@ -1,6 +1,4 @@
 import React from "react"
-//import { Container } from "react-bootstrap"
-//import { Link } from "react-router-dom";
 import Footer from "./Footer"
 import NavBar from "./NavBar"
 
@@ -11,18 +9,21 @@ export default function Login() {
   return (
     <>
             <NavBar />
-            <div className="container">
+            <div className="container ">
                 <div className="jumbotron">
                     <h1 className="display-4">Spotify</h1>
                     <p className="lead">Utilizando a API do Spotify</p>
                     <hr />
-                    <p>Este website consiste em aplicar algumas funções disponiveis na api do spotify</p>
-                    <a className="btn btn-primary btn-lg" href={AUTH_URL}>
+                    <p>Este website consiste em um desafio técnico proposto pela <a href="https://www.horizonci.com.br/">
+                    Horizon
+            </a></p>
+                    <a className="btn btn-success btn-lg" href={AUTH_URL}>
                         Logar com spotify
                     </a>
                 </div>
             </div>
             <Footer />
+            
         </>
   )
 }

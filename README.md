@@ -1,5 +1,15 @@
 # Spotify-clone
-Desafio HORIZON - Utilizando API do Spotify 
+
+Desafio HORIZON - Utilizando API do Spotify - Este projeto foi realizado com base em um desafio técnico proposto pela HORIZON para Estagiário Web.
+# Clonando o projeto
+Para clonar o projeto você precisará abrir um terminal na pasta onde deseja salva-lo e executar o comando "git clone https://github.com/ecbjotape/Spotify-clone.git"
+# Instalando dependencias
+Com o editor de código-fonte aberto na pasta, você precisará executar o comando 'npm install' em um terminal nas pastas: client, server e Spotify-clone
+# Executando o projeto
+Para executar o projeto, basta rodar o comando 'npm start' na pasta client e na pasta server o comando 'npm run devStart' para rodar o servidor local na sua maquina.
+Caso não abra o browser, você poderá ir manualmente no link 'http://localhost:3000/' .
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

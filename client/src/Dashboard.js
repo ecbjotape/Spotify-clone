@@ -57,7 +57,7 @@ export default function Dashboard({ code }) {
               if (image.height < smallest.height) return image
               return smallest
             },
-            track.album.images[0]
+            track.album.images[0],
           )
 
           return {
@@ -89,7 +89,7 @@ export default function Dashboard({ code }) {
       <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
       <Form.Control
         type="search"
-        placeholder="Search Songs/Artists"
+        placeholder="Procure por músicas/artistas"
         value={search}
         onChange={e => setSearch(e.target.value)}
       />

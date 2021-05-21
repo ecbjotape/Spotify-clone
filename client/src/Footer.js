@@ -8,7 +8,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/ecbjotape/">
               João Moreira 
             </a>
-             © 2021 - Desenvolvedor jr. Todos os Direitos Reservados ©
+             © 2021 - Desenvolvedor web. Todos os Direitos Reservados ©
           </p>
       </footer>
   );

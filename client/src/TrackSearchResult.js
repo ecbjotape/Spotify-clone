@@ -15,6 +15,7 @@ export default function TrackSearchResult({ track, chooseTrack }) {
       <div className="ml-3">
         <div>{track.title}</div>
         <div className="text-muted">{track.artist}</div>
+        <div className="text-muted">{track.album}</div>
       </div>
     </div>
   )
